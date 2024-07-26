@@ -145,16 +145,16 @@ th {
 {
   margin-bottom: 0.2rem;
 }
-#right1
-{
-  display: flex;
-  flex-direction: column;
-}
+
 #content23
 {
   margin-left: 0.5vh;
   display: flex;
   flex-direction: column;
+}
+#right1
+{
+  color: #3f4041;
 }
 #right1 input,#right1 select
 {
@@ -162,4 +162,15 @@ th {
   border: #74797d solid 1px;
   border-radius: 2px;
   outline: none;
+  width: 100%;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+}
+#right1 label
+{
+padding: 1rem 0;
+}
+#right1 hr{
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
 }
