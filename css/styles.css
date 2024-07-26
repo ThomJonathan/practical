@@ -155,6 +155,8 @@ th {
 #right1
 {
   color: #3f4041;
+  height: 27rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #right1 input,#right1 select
 {
@@ -173,4 +175,17 @@ padding: 1rem 0;
 #right1 hr{
   margin-bottom: 0.7rem;
   margin-top: 0.7rem;
+}
+#Description
+{
+  width: 100%;
+  height: 7rem
+}
+.save
+{
+  background-color: rgb(30, 175, 233);
+  padding: 0.4rem 1.8rem;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
 }
