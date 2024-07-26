@@ -24,6 +24,10 @@ body{
   margin-left: 30vh;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  margin-top: 0.6rem;
 }
 .sidebar{
   position: fixed;
@@ -42,3 +46,120 @@ body{
 .sidebar a:hover{
   background-color: #d4ecf8;
 } 
+.created
+{
+  display: flex;
+  width: 100vw;
+    height: 15vh;
+  background-color: rgb(221, 240, 247);
+  margin: 0px 10px;
+  flex-direction: row;
+}
+.insideicon
+{
+  border: none;
+  text-align: start;
+  padding-left: 0;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+.details
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6rem;
+  padding-top: 0.2rem;
+}
+.icon
+{
+  margin-left:0.6rem ;
+  padding-top: 1rem;
+}
+.details p
+{
+  font-weight: 400;
+}
+.content1
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.container2
+{
+  display: flex;
+  flex-direction: row;
+  
+}
+.right,.left
+{
+  margin-left: 31.5vh;
+}
+.right
+{
+  border: solid rgb(239, 232, 232) 1px;
+  width: 40rem;
+  height: 20rem;
+  padding: 0 1rem;
+}
+.right p
+{
+ 
+margin-top: 0.8rem;
+padding-bottom: 0;
+margin-bottom: 0;
+
+}
+.insideright
+{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.insideright hr
+{
+  margin-top: 0.4rem;
+  width:38rem;
+  margin-bottom: 0.3rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1.5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+th {
+  background-color:  #dfe9ef;
+  font-size: 16px;
+  font-weight: 500;
+}
+.left
+{
+  margin-bottom: 0.2rem;
+}
+#right1
+{
+  display: flex;
+  flex-direction: column;
+}
+#content23
+{
+  margin-left: 0.5vh;
+  display: flex;
+  flex-direction: column;
+}
+#right1 input,#right1 select
+{
+  height: 2rem;
+  border: #74797d solid 1px;
+  border-radius: 2px;
+  outline: none;
+}
